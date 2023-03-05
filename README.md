@@ -10,8 +10,8 @@ However, as I do not want to be responsible for billing for examples tested thro
 
 If you do not wish to use your own API key, you can still try all of the examples on its respective article on my blog.
 
-| Example | APIs used |
-| ------- | --------- |
-| [Capture markers in a drawn polygon](https://nora-soderlund.github.io/google-maps-examples/capture-markers-in-a-drawn-polygon/?key=API_KEY) | Maps JavaScript API |
-| [Using markers as anchors](https://nora-soderlund.github.io/google-maps-examples/using-markers-as-anchors/?key=API_KEY) | Maps JavaScript API |
-| [Multiple markers at the same position](https://nora-soderlund.github.io/google-maps-examples/multiple-markers-at-the-same-position/?key=API_KEY) | Maps JavaScript API |
+| Article | Pages | APIs used |
+| ------- | ----- | --------- |
+| [Capturing Google Maps markers inside a polygon](https://nora-soderlund.se/articles/capturing-google-maps-markers-in-a-polygon) | [Capture markers in a drawn polygon](https://nora-soderlund.github.io/google-maps-examples/capture-markers-in-a-drawn-polygon/?key=API_KEY) | Maps JavaScript API |
+| [Using Google Maps markers as anchors](https://nora-soderlund.se/articles/using-google-maps-markers-as-anchors) | [Using markers as anchors](https://nora-soderlund.github.io/google-maps-examples/using-markers-as-anchors/?key=API_KEY) | Maps JavaScript API |
+| Coming soon | [Multiple markers at the same position](https://nora-soderlund.github.io/google-maps-examples/multiple-markers-at-the-same-position/?key=API_KEY) | Maps JavaScript API |
