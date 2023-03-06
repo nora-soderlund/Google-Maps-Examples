@@ -42,12 +42,27 @@ export default class MarkerBundle {
         this.render();
     };
 
-    mousemove(event) {
-        for(let index = 0; index < this.images.length; index++) {
-            const alphaIndex = ((event.domEvent.offsetY * this.images[index].canvas.width + event.domEvent.offsetX) * 4) + 3;
-            const alpha = this.images[index].imageData.data[alphaIndex];
+    isMouseOverImage(imageData, width, offsetX, offsetY) {
+        const alphaIndex = ((offsetY * width + offsetX) * 4) + 3;
+        const alpha = imageData.data[alphaIndex];
 
-            if(alpha < 254)
+        if(alpha < 254)
+            return false;
+
+        return true;
+    };
+
+    mousemove(event) {
+        if(this.hovered !== -1) {
+            if(this.isMouseOverImage(this.images[this.hovered].imageData, this.images[this.hovered].canvas.width, event.domEvent.offsetX, event.domEvent.offsetY)) {
+                google.maps.event.trigger(this.markers[(this.markers.length - 1) - this.hovered], "mousemove", event);
+
+                return;
+            }
+        }
+
+        for(let index = 0; index < this.images.length; index++) {
+            if(!this.isMouseOverImage(this.images[index].imageData, this.images[index].canvas.width, event.domEvent.offsetX, event.domEvent.offsetY))
                 continue;
 
             if(index != this.hovered) {
