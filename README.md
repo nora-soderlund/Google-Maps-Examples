@@ -14,4 +14,4 @@ If you do not wish to use your own API key, you can still try all of the example
 | ------- | ------------ |
 | [Capturing Google Maps markers inside a polygon](https://nora-soderlund.se/articles/capturing-google-maps-markers-in-a-polygon) | [Capture markers in a drawn polygon](https://nora-soderlund.github.io/Google-Maps-Examples/capture-markers-in-a-drawn-polygon/?key=API_KEY) |
 | [Using Google Maps markers as anchors](https://nora-soderlund.se/articles/using-google-maps-markers-as-anchors) | [Using markers as anchors](https://nora-soderlund.github.io/Google-Maps-Examples/using-markers-as-anchors/?key=API_KEY) |
-| | [Multiple markers at the same position](https://nora-soderlund.github.io/Google-Maps-Examples/multiple-markers-at-the-same-position/?key=API_KEY) |
+| [Bundling several Google Maps markers together](https://nora-soderlund.se/articles/bundling-several-google-maps-markers-together) | [Multiple markers at the same position](https://nora-soderlund.github.io/Google-Maps-Examples/multiple-markers-at-the-same-position/?key=API_KEY) |
