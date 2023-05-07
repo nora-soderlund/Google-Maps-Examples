@@ -1,5 +1,3 @@
 export const onRequest: PagesFunction<Env> = async (context) => {
-    const { example } = context.params;
-
-    return Response.redirect(`/${example}/?key=${context.env.GOOGLE_MAPS_PUBLIC_API}`);
+    return Response.redirect(`${context.request.url}/?key=${context.env.GOOGLE_MAPS_PUBLIC_API}`);
 };
