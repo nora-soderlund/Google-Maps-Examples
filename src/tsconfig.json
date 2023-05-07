@@ -1,0 +1,18 @@
+{
+    "exclude": ["../node_modules"],
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "outDir": "../",
+        "rootDir": "",
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "esnext"
+        ],
+        "types": [
+            "@cloudflare/workers-types"
+        ]
+    }
+}

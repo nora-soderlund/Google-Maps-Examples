@@ -1,0 +1,23 @@
+{
+    "name": "google-maps-examples",
+    "version": "0.9.0",
+    "description": "A collection of Google Maps examples from my Developer Blog.",
+    "scripts": {
+        "build": "cd src && npx tsc",
+        "clear": "rmdir /s /q functions"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nora-soderlund/Google-Maps-Examples.git"
+    },
+    "author": "Nora Söderlund",
+    "license": "AGPL-3.0",
+    "bugs": {
+        "url": "https://github.com/nora-soderlund/Google-Maps-Examples/issues"
+    },
+    "homepage": "https://github.com/nora-soderlund/Google-Maps-Examples#readme",
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20230419.0",
+        "typescript": "^5.0.4"
+    }
+}
