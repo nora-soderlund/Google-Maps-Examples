@@ -1,1 +1,0 @@
-{"version":3,"file":"webgl.d.ts","sourceRoot":"","sources":["../../../src/modules/renderer/webgl.ts"],"names":[],"mappings":"AAAA,qBAAa,aAAa;IACtB,MAAM,CAAC,iBAAiB,CAAC,OAAO,EAAE,qBAAqB;;;;;;;;;;;IAqDvD,MAAM,CAAC,iBAAiB,CAAC,EAAE,EAAE,qBAAqB,EAAE,QAAQ,EAAE,GAAG,EAAE,QAAQ,EAAE,GAAG;IAoChF,MAAM,CAAC,UAAU,CAAC,EAAE,EAAE,qBAAqB,EAAE,IAAI,EAAE,GAAG,EAAE,MAAM,EAAE,GAAG;CA0BtE"}

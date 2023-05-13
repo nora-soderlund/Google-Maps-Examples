@@ -1,5 +1,3 @@
-import { RouteRenderer, RouteWebGLOverlayView } from "./RouteRenderer/index.js";
-
 const searchParams = new URLSearchParams(window.location.search);
 
 const loader = new google.maps.plugins.loader.Loader({
@@ -21,7 +19,7 @@ new class ProjectingA3DRouteOnGoogleMaps {
         this.loadRoute("routes/activities_70300cf5-614d-4597-9b23-b57fa0426fa2.json").then((sessions) => {
             const paths = this.createPathsFromSessions(sessions);
 
-            const renderer = new RouteRenderer({
+            const renderer = new RouteRenderer.Renderer({
                 topColor: [ 187, 135, 252, 255 ],
                 wallColor: [ 23, 26, 35, 255 ],
 
@@ -36,7 +34,7 @@ new class ProjectingA3DRouteOnGoogleMaps {
                 gridPadding: 10000
             });
             
-            const webglOverlayView = new RouteWebGLOverlayView(renderer, paths);
+            const webglOverlayView = new RouteRenderer.WebGLOverlayView(renderer, paths);
 
             webglOverlayView.setMap(this.map);
 

@@ -1,1 +1,0 @@
-{"version":3,"file":"grid.d.ts","sourceRoot":"","sources":["../../../../src/modules/renderer/models/grid.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,mBAAmB,CAAC;AACpD,OAAO,EAAE,cAAc,EAAE,MAAM,iBAAiB,CAAC;AAGjD,qBAAa,iBAAiB;IAC1B,MAAM,CAAC,aAAa,CAAC,EAAE,EAAE,qBAAqB,EAAE,OAAO,EAAE,eAAe,EAAE,cAAc,EAAE,cAAc,EAAE,KAAK,EAAE,GAAG,EAAE;;;;;;CA6DzH"}
