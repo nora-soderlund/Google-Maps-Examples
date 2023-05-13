@@ -1,0 +1,1 @@
+{"version":3,"file":"path.d.ts","sourceRoot":"","sources":["../../../../src/modules/renderer/models/path.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,mBAAmB,CAAC;AACpD,OAAO,EAAE,cAAc,EAAE,MAAM,iBAAiB,CAAC;AAKjD,qBAAa,iBAAiB;IAC1B,MAAM,CAAC,aAAa,CAAC,EAAE,EAAE,qBAAqB,EAAE,IAAI,EAAE,GAAG,EAAE,OAAO,EAAE,eAAe,EAAE,cAAc,EAAE,cAAc;;;;;;CAkWtH"}
